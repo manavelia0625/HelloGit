@@ -1,9 +1,4 @@
 ﻿<?php
-	/* 
-	 * 変数の値を変更するときは直接変更するのではなく、
-	 * 必ず変更箇所をコピーし、変更前をコメントアウトして残すようにしてください。
-	 * コメントには変更した日付と変更者を残すようにしてください。
-	*/
 	session_start();
 	$incret = include_once("./lib/common_constant.php");
 	$incret = include_once("./lib/common_function.php");
